@@ -1,0 +1,57 @@
+.BoxS{
+  text-shadow: 1px 3px 0px rgb(255, 255, 255);
+}
+.ModeN{
+  color: #d9971c;
+  text-shadow: 1px 3px 3px rgb(0, 0, 0);
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .conta {
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin: auto; 
+    width: 360px;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 3px solid gray;
+    background-color: #72aef2 ;
+  }
+  
+  h1 {
+    color: #000000;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .redText {
+    color: red;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);    
+  }
